@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import 'semantic-ui-css/semantic.min.css';
+import RoutesApp from './routes';
+import { GiCarWheel } from 'react-icons/gi'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container'>
+      <div className='formCard'>
+        <div className='leftCard'>
+          <GiCarWheel size={'75px'}/>
+          <h1>CleanMyCar</h1>
+          <p>India's first waterless <br></br> car cleaning company</p>
+        </div>
+        <div className='rightCard'>
+          <a className='help' href="https://www.lipsum.com/feed/html">Need Help?</a>
+          <RoutesApp />
+        </div>
+      </div>
     </div>
   );
 }

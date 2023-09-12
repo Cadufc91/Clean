@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(90deg, rgba(26,235,182,1) 47%, rgba(26,235,182,1) 38%, rgba(255,255,255,1) 38%, rgba(255,255,255,1) 100%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.help {
+  position: absolute;
+  top: 85px;
+  right: 250px;
+  color: black;
+  font-weight: 600;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.formCard {
+  display: flex;
+  gap: 25%;
+  box-shadow: 0px 0px 10px 0 grey;
+  padding: 120px 80px;
+  width: 70%;
+  height: 80vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.leftCard {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.leftCard h1 {
+  font-size: 45px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.leftCard p {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.rightCard {
+  width: 100%;
 }

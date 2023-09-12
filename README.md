@@ -1,46 +1,127 @@
-# Getting Started with Create React App
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/cadufc91/Clean?color=%2304D361">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/cadufc91/Clean">
+  
+  <a href="https://github.com/cadufc91/Clean/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/cadufc91/Clean">
+  </a>
+    
+   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+   <a href="https://github.com/cadufc91/Clean/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/cadufc91/Clean?style=social">
+  </a>
+  
+ 
+</p>
+<h1 align="center">
+    <img alt="Application" title="#Application" src="./src/thumb.png" />
+</h1>
 
-## Available Scripts
+<h4 align="center"> 
+	🚧  Clean - Finished 🚀 🚧
+</h4>
 
-In the project directory, you can run:
+<p align="center">
+ <a href="#-about">About</a> •
+  <a href="#-features">Features</a> •
+ <a href="#-how-it-works">How it works</a> • 
+ <a href="#-tech-stack">Tech Stack</a> • 
+ <a href="#-author">Author</a> • 
+ <a href="#-license">License</a>
+</p>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 💻 About
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Clean - is a simple login form for users to book their car cleaning services.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚙️ Features
 
-### `npm run build`
+- [x] Users can login to book their car to be cleaned.
+- [x] A forgot password form is also available.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 How it works
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project was developed only the Frontend.
 
-### `npm run eject`
+### Pre-requisites
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Before you begin, you will need to have the following tools installed on your machine:
+[Git] (https://git-scm.com), [Node.js] (https://nodejs.org/en/).
+In addition, it is good to have an editor to work with the code like [VSCode] (https://code.visualstudio.com/)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### 🧭 Running the web application (Frontend)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+# Clone this repository
+$ git clone https://github.com/Cadufc91/Clean.git
+# Access the project folder in your terminal
+$ cd Clean
+# Install the dependencies
+$ npm install
+# Run the application in development mode
+$ npm run start
+# The application will open on the port: 3000 - go to http://localhost:3000
+```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🛠 Tech Stack
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The following tools were used in the construction of the project:
+
+#### **Website**  ([React](https://reactjs.org/)  +  [TypeScript](https://www.typescriptlang.org/))
+
+-   **[React Icons](https://react-icons.github.io/react-icons/)**
+-   **[Semantic-UI](https://react.semantic-ui.com/)**
+
+> See file  [package.json](https://github.com/cadufc91/Clean/blob/master/web/package.json)
+> 
+**Utilities**
+-   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**
+-   Markdown:  **[StackEdit](https://stackedit.io/)**,  **[Markdown Emoji](https://gist.github.com/rxaviers/7360908)**
+
+---
+
+## 👨‍💻 Contributors
+
+<table>
+  <tr>
+    <td align="center"><a href="https://cadufc-portfolio.vercel.app/"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/92037562?v=4" width="100px;" alt=""/><br /><sub><b>Cadu Fernandes</b></sub></a><br /><a href="https://cadufc-portfolio.vercel.app/">👨‍💻</a></td>
+  </tr>
+</table>
+
+## 💪 How to contribute
+
+1. Fork the project.
+2. Create a new branch with your changes: `git checkout -b my-feature`
+3. Save your changes and create a commit message telling you what you did: `git commit -m" feature: My new feature "`
+4. Submit your changes: `git push origin my-feature`
+
+---
+## 🦸 Author
+
+<a href="https://cadufc-portfolio.vercel.app/">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/92037562?v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Cadu Fernandes</b></sub></a> <a href="https://cadufc-portfolio.vercel.app/">🚀</a>
+ <br />
+
+ [![Linkedin Badge](https://img.shields.io/badge/-Cadu-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/carloseduardo-fernandes/)](https://www.linkedin.com/in/carloseduardo-fernandes/) 
+[![Gmail Badge](https://img.shields.io/badge/-fernandes.cadu@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:fernandes.cadu@gmail.com)](mailto:fernandes.cadu@gmail.com)
+
+---
+
+## 📝 License
+
+This project is under the license [MIT](./LICENSE).
+
+Made with love by Cadu Fernandes 👋🏽 [Get in Touch!](https://www.linkedin.com/in/carloseduardo-fernandes/)
+
+---

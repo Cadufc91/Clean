@@ -1,0 +1,23 @@
+.formContainer h1{
+    text-align: center;
+}
+
+label {
+    font-size: 20px !important;
+    margin-bottom: 10px !important;
+}
+
+.helper {
+    text-align: right;
+    margin-bottom: 35px;
+}
+
+.link {
+    color: black;
+    font-weight: 600;
+}
+
+.button {
+    background-color: rgba(26,235,182,1) !important;
+    width: 100%;
+}
